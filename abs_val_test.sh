@@ -1,5 +1,5 @@
-#!/bin/bash 
+#!/bin/bash
 #A and B to illustrate examples
-A=-10
+A=-$RANDOM
 B=${A#-}
-echo " valuse of A, B are $A and $B "
+echo " value of A (negative), B (absolute value) are $A and $B "
